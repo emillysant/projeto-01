@@ -24,4 +24,9 @@
 
 ### Rodar o angular
 
-```ng serve ```# projeto-01
+```ng serve ```
+
+###
+
+https://youtu.be/4bjekJTX-Uw
+[![angular](https://img.youtube.com/vi/4bjekJTX-Uw/maxresdefault.jpg)](https://www.youtube.com/watch?v=4bjekJTX-Uw)
