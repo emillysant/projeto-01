@@ -1,0 +1,30 @@
+
+.spaceship {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .spaceship img {
+    max-width: 200px;
+    margin-right: 20px;
+  }
+  
+  .spaceship-info {
+    max-width: 800px;
+  }
+  
+  .spaceship-info h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .spaceship-info p {
+    margin: 5px 0;
+    color: #666;
+  }
+  

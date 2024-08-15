@@ -1,0 +1,9 @@
+<div class="spaceship">
+    <img [src]="spaceship.image" [alt]="spaceship.name">
+    <div class="spaceship-info">
+      <h2>{{ spaceship.name }}</h2>
+      <p><strong>Class:</strong> {{ spaceship.class }}</p>
+      <p><strong>Crew:</strong> {{ spaceship.crew }}</p>
+      <button (click)="onDelete()" class="delete-btn">🗑️ Delete</button>
+    </div>
+  </div>

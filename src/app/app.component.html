@@ -1,0 +1,46 @@
+<!-- <primeiro-componente [user]="user"></primeiro-componente>
+
+
+<p>Carteira de Motorista: {{user.hasCarteira ? "possui":"não possui"}} </p>
+
+<ul>
+    <li *ngFor="let fruta of frutas">{{fruta}}</li>
+</ul>
+
+<div *ngIf="user.idade >= 18">
+    <button (click)="tirarCarteira()">Tirar Carteira de Motorista</button>
+</div>
+<p (mouseenter)="mudarTitle()">Mudar Titulo</p>
+
+<input type="text" [value]="title">
+
+<img [src]="user.image_url" alt="" width="300px">
+
+
+<div>Atividade 14/08</div>
+<button (click)="getDados()">carregar dados</button> -->
+
+<!-- <div *ngIf="data">
+    <pre>{{data | json}}</pre>
+</div> -->
+
+<!-- <app-post *ngFor="let post of posts" [post]="post"></app-post> -->
+
+<div class="container">
+  <div class="title">
+    <h1>Welcome to Spacefleet Store</h1>
+  </div>
+
+  <div class="search-container">
+    <div>
+      <label for="search-id">Search by ID (in the database):</label>
+      <input type="number" id="search-id" [(ngModel)]="searchId" (input)="searchById()" #searchInput
+      (focus)="setSearchInputRef(searchInput)">
+    </div>
+    <p>* click outside (without input) to clear search</p>
+  </div>
+
+  <div *ngFor="let spaceship of searchResults.length ? searchResults : spaceships">
+    <app-spaceships [spaceship]="spaceship" (delete)="deleteSpaceship($event)"></app-spaceships>
+  </div>
+</div>
